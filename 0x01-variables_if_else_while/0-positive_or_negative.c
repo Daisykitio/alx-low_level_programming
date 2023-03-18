@@ -4,9 +4,9 @@
 #include <stdio.h>
 /* betty style doc for function main goes there */
 /**
- * main - main functio
+ * main - Main function
  *
- * Return: always 0
+ * Return: always (success)
  */
 int main(void)
 {
@@ -27,5 +27,6 @@ int main(void)
 	{
 		printf("%d is negative", n);
 	}
+	printf("\n");
 	return (0);
 }
